@@ -8,7 +8,7 @@
   var isLive = LIVE_HOSTS.indexOf(location.hostname) > -1 || /\.netlify\.app$/.test(location.hostname);
   // Optional second copy of every submission into the Google Sheet (Apps Script web app URL ending in /exec).
   // Leave empty to rely on Netlify Forms only. This copy is fire-and-forget: success is judged by Netlify.
-  var SHEET_URL = 'https://script.google.com/a/macros/infoteklogistics.com/s/AKfycbxXUHOYhVDK5PzS1c26HfwnzwtBtiSJeLd1FgT-WI_r9lGlFCbTbnU13WLlVtyjB8_Lkw/exec';
+  var SHEET_URL = 'https://script.google.com/macros/s/AKfycbwIKPw5m6N1rvbEmxXCUj2T8jU18t3o1Iyh9BaL-ssAIY2DgbqFG6IBn48KR2LpNGiuRw/exec';
   var PHONE = '(212) 404-7164';
 
   if(!isLive) document.documentElement.classList.add('is-preview');
